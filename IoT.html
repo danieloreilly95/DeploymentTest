@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+   <link href="https://bootswatch.com/4/cerulean/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <title>My Statistics</title>
+  </head>
+  <body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-toggleable-md bg-info navbar-inverse">
+        <div class="container">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="index.html">Home</a>
+                    <a class="nav-item nav-link active" href="IoT.html">IT Statistics</a>
+                    <a class="nav-item nav-link" href="university.html">University Statistics</a>
+                    <a class="nav-item nav-link" href="college.html">College Statistics</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid bg-info text-white text-center">
+        <div class="container">
+            <h1 class="display-4">Institutes of Technology in Ireland</h1>
+            <p class="lead">The facts and figures...</p>
+        </div>
+    </div>
+
+    <div class="container text-muted">
+
+        <!--nav cards -->
+
+        <nav class="nav justify-content-center nav-pills flex-column flex-md-row">
+            <a class="nav-link active" href="#ITentrants1516" data-toggle="tab">2016 & 2015 Statistics</a>
+            <a class="nav-link" href="#ITentrants1413" data-toggle="tab">2014 & 2013 Statistics</a>
+        </nav>
+
+        <div class="tab-content py-5">
+          <!--Chart1 IT2016-->
+            <div class="tab-pane active" id="ITentrants1516">
+              <div class="row">
+              <div class="col-md-6 col-lg-6">
+                <div class="card">
+                    <div class = "card-block">
+                        <h3 class="card-title">2016 Institute of Technology</h3>
+                        <span id="IT2016"></span>
+                        <p class = "card-text">The above chart represents the breakdown of college entrants in 2016. It is broken
+                        down between the number of university, institute of technology and college entrants, as well as the total number that year.</p>
+                      </div> <!--End card block-->
+                </div><!--End Card -->
+              </div> <!--End Col -->
+              <div class="col-md-6 col-lg-6">
+                <div class="card">
+                    <div class = "card-block">
+                        <h3 class="card-title">2015 Institute of Technology</h3>
+                        <span id="IT2015"></span>
+                        <p class = "card-text">The above chart represents the breakdown of college entrants in 2016. It is broken
+                        down between the number of university, institute of technology and college entrants, as well as the total number that year.</p>
+                      </div> <!--End card block-->
+                </div> <!--End card -->
+              </div> <!--End col-->
+          </div> <!--End row-->
+      </div> <!--End tab pane-->
+
+            <div class="tab-pane fade" id="ITentrants1413">
+              <div class="row">
+              <div class="col-md-6 col-lg-6">
+                <div class="card">
+                    <div class = "card-block">
+                        <h3 class="card-title">2014 Institute of Technology</h3>
+                        <span id="IT2014"></span>
+                        <p class = "card-text">The above chart represents the breakdown of college entrants in 2016. It is broken
+                        down between the number of university, institute of technology and college entrants, as well as the total number that year.</p>
+                      </div> <!--End card block-->
+                </div> <!--End card -->
+              </div> <!--End col-->
+
+              <div class="col-md-6 col-lg-6">
+                <div class="card">
+                    <div class = "card-block">
+                        <h3 class="card-title">2013 Institute of Technology</h3>
+                        <span id="IT2013"></span>
+                        <p class = "card-text">The above chart represents the breakdown of college entrants in 2016. It is broken
+                        down between the number of university, institute of technology and college entrants, as well as the total number that year.</p>
+                      </div> <!--End card block-->
+                </div> <!--End card -->
+              </div> <!--End col-->
+          </div> <!--End row-->
+      </div> <!--End tab pane-->
+  </div> <!-- End Tab content -->
+</div> <!-- End Container muted -->
+
+        <br></br>
+
+        <div class = "row">
+          <div class = "container">
+            <div class= "col-md-6 col-lg-12">
+                    <h3>2008 - 2016 Institute of Technology Entrants</h3>
+                    <span id="ITTOTAL"></span>
+                    <p class = "card-text">The above chart represents the breakdown of college entrants in 2016. It is broken
+                    down between the number of university, institute of technology and college entrants, as well as the total number that year.</p>
+          </div> <!-- End Col-->
+        </div> <!-- End Container -->
+      </div> <!-- End row -->
+
+
+        <!-- navs -->
+
+        <h2 class="display-4 py-5 mt-5 text-center">Top 5 Institutes of Technology in Ireland</h2>
+
+        <nav class="nav justify-content-center nav-pills flex-column flex-md-row">
+            <a class="nav-link active" href="#totalditentrants" data-toggle="tab">DIT</a>
+            <a class="nav-link" href="#totalcitentrants" data-toggle="tab">Cork IT</a>
+            <a class="nav-link" href="#totalwitentrants" data-toggle="tab">Waterford IT</a>
+            <a class="nav-link" href="#totalathloneentrants" data-toggle="tab">Athlone IT</a>
+            <a class="nav-link" href="#totalcarlowentrants" data-toggle="tab">IT Carlow</a>
+        </nav> <!-- End Nav -->
+
+        <div class="tab-content py-5">
+            <div class="tab-pane active" id="totalditentrants">
+              <div class="container">
+              <div class="col-md-6 col-lg-12">
+                        <h3>DIT Entrants</h3>
+                        <span id="dittotal"></span>
+                        <p>The above chart represents the breakdown of college entrants in 2014. It is broken
+                        down between the number of university, institute of technology and college entrants.</p>
+                      </div> <!--End col -->
+                </div> <!--End container -->
+              </div><!--End tab pane -->
+
+
+            <div class="tab-pane fade" id="totalcitentrants">
+              <div class="container">
+              <div class="col-md-6 col-lg-12">
+                        <h3>Cork IT Entrants</h3>
+                        <span id="cittotal"></span>
+                        <p>The above chart represents the breakdown of college entrants in 2013. It is broken
+                        down between the number of university, institute of technology and college entrants.</p>
+                      </div><!--End col -->
+                  </div><!-- End container -->
+                </div><!--End tab pane -->
+
+            <div class="tab-pane fade" id="totalwitentrants">
+              <div class ="container">
+              <div class="col-md-6 col-lg-12">
+                        <h3>Waterford IT Entrants</h3>
+                        <span id="waterfordtotal"></span>
+                        <p>The above chart represents the breakdown of college entrants in 2012. It is broken
+                        down between the number of university, institute of technology and college entrants.</p>
+                      </div> <!--End Col-->
+                    </div> <!--End Container-->
+                  </div> <!--End tab pane-->
+
+            <div class="tab-pane fade" id="totalathloneentrants">
+              <div class = "container">
+              <div class="col-md-6 col-lg-12">
+                        <h3>Athlone IT Entrants</h3>
+                        <span id="athlonetotal"></span>
+                        <p>The above chart represents the breakdown of college entrants in 2011. It is broken
+                        down between the number of university, institute of technology and college entrants.</p>
+                      </div> <!--End Col-->
+                    </div> <!--End Container-->
+                  </div> <!--End tab pane-->
+
+            <div class="tab-pane fade" id="totalcarlowentrants">
+              <div class = "container">
+              <div class="col-md-6 col-lg-12">
+                        <h3>IT Carlow</h3>
+                        <span id="carlowtotal"></span>
+                        <p>The above chart represents the breakdown of college entrants in 2011. It is broken
+                        down between the number of university, institute of technology and college entrants.</p>
+                      </div> <!--End Col-->
+                    </div> <!--End Container-->
+                 </div> <!--End Tab pane-->
+  </div> <!--End Tab Content-->
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="js/fusioncharts.js"></script>
+    <script src="js/fusioncharts.charts.js"></script>
+    <script src="js/themes/fusioncharts.theme.zune.js"></script>
+    <script src="js/fusioncharts.jqueryplugin.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app2.js"></script>
+
+
+
+  </body>
+</html>

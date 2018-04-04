@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+
+    <title>My Statistics</title>
+  </head>
+  <body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-toggleable-md bg-info navbar-inverse">
+        <div class="container">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="index.html">Home</a>
+                    <a class="nav-item nav-link" href="IoT.html">IT Statistics</a>
+                    <a class="nav-item nav-link" href="university.html">University Statistics</a>
+                    <a class="nav-item nav-link" href="college.html">College Statistics</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid bg-info text-white text-center">
+        <div class="container">
+            <h1 class="display-4">Higher Education in Ireland</h1>
+            <p class="lead">The facts and figures...</p>
+        </div>
+    </div>
+
+    <div class="container text-muted">
+
+        <!-- cards -->
+
+        <div class="row">
+          <div class="col-md-6 col-lg-6">
+            <div class="card">
+                <div class = "card-block">
+                    <h3 class="card-title">2016 Higher Education</h3>
+                    <span id="total2016"></span>
+                    <p class = "card-text">The above chart represents the breakdown of college entrants in 2016. It is broken
+                    down between the number of university, institute of technology and college entrants, as well as the total number that year.</p>
+                  </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-6">
+            <div class="card">
+                <div class = "card-block">
+                    <h3 class="card-title">2015 Higher Education</h3>
+                    <span id="total2015"></span>
+                    <p class = "card-text">The above chart represents the breakdown of college entrants in 2016. It is broken
+                    down between the number of university, institute of technology and college entrants, as well as the total number that year.</p>
+                  </div>
+            </div>
+          </div>
+        </div>
+
+        <br></br>
+
+        <div class = "row">
+          <div class = "container">
+            <div class= "col-md-6 col-lg-12">
+                    <h3>2008 - 2016 Higher Education Entrants</h3>
+                    <span id="totalentrants"></span>
+                    <p class = "card-text">The above chart represents the breakdown of college entrants in 2016. It is broken
+                    down between the number of university, institute of technology and college entrants, as well as the total number that year.</p>
+          </div>
+         </div>
+</div> <!-- End Container muted -->
+
+        <!-- navs -->
+
+        <h2 class="display-4 py-5 mt-5 text-center">Some Other Statistics</h2>
+
+        <nav class="nav justify-content-center nav-pills flex-column flex-md-row">
+            <a class="nav-link active" href="#entrants14" data-toggle="tab">2014</a>
+            <a class="nav-link" href="#entrants13" data-toggle="tab">2013</a>
+            <a class="nav-link" href="#entrants12" data-toggle="tab">2012</a>
+            <a class="nav-link" href="#entrants11" data-toggle="tab">2011</a>
+        </nav>
+
+        <div class="tab-content py-5">
+            <div class="tab-pane active" id="entrants14">
+              <div class="col-md-6 col-lg-12">
+                        <h3>2014 Higher Education</h3>
+                        <span id="total2014"></span>
+                        <p>The above chart represents the breakdown of college entrants in 2014. It is broken
+                        down between the number of university, institute of technology and college entrants.</p>
+                      </div>
+                </div>
+
+            <div class="tab-pane fade" id="entrants13">
+              <div class="col-md-6 col-lg-12">
+                        <h3>2013 Higher Education</h3>
+                        <span id="total2013"></span>
+                        <p>The above chart represents the breakdown of college entrants in 2013. It is broken
+                        down between the number of university, institute of technology and college entrants.</p>
+                      </div>
+            </div>
+            <div class="tab-pane fade" id="entrants12">
+              <div class="col-md-6 col-lg-12">
+                        <h3>2012 Higher Education</h3>
+                        <span id="total2012"></span>
+                        <p>The above chart represents the breakdown of college entrants in 2012. It is broken
+                        down between the number of university, institute of technology and college entrants.</p>
+                      </div>
+            </div>
+            <div class="tab-pane fade" id="entrants11">
+              <div class="col-md-6 col-lg-12">
+                        <h3>2011 Higher Education</h3>
+                        <span id="total2011"></span>
+                        <p>The above chart represents the breakdown of college entrants in 2011. It is broken
+                        down between the number of university, institute of technology and college entrants.</p>
+                      </div>
+            </div>
+        </div>
+</div>
+    </div><!-- end .container -->
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="js/fusioncharts.js"></script>
+    <script src="js/fusioncharts.charts.js"></script>
+    <script src="js/themes/fusioncharts.theme.zune.js"></script>
+    <script src="js/fusioncharts.jqueryplugin.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+</html>
