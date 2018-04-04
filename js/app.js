@@ -1,7 +1,7 @@
 $(function() {
     $.ajax({
 
-        url: 'http://educationstats.azurewebsites.net/BootStrapChart/data/chart_data.php',
+        url: 'http://educationstats.azurewebsites.net/data/chart_data.php',
         type: 'GET',
         success: function(data) {
             chartData = data;
