@@ -145,7 +145,7 @@ $(function() {
             };
 
             apiChart = new FusionCharts({
-                type: 'column2d',
+                type: 'line',
                 renderAt: 'ITTOTAL',
                 width: '100%',
                 height: '350',
