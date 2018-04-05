@@ -1,7 +1,7 @@
 $(function() {
     $.ajax({
 
-        url: 'http://localhost/BootStrapChart/collegedata/chart_data.php',
+        url: 'https://educationstats.azurewebsites.net/collegedata/chart_data.php',
         type: 'GET',
         success: function(data) {
             chartData = data;
@@ -33,7 +33,7 @@ $(function() {
 
     $.ajax({
 
-        url: 'http://localhost/BootStrapChart/collegedata/chart_data2.php',
+        url: 'https://educationstats.azurewebsites.net/collegedata/chart_data2.php',
         type: 'GET',
         success: function(data2) {
             chartData2 = data2;
@@ -65,7 +65,7 @@ $(function() {
 
     $.ajax({
 
-        url: 'http://localhost/BootStrapChart/collegedata/chart_data3.php',
+        url: 'https://educationstats.azurewebsites.net/collegedata/chart_data3.php',
         type: 'GET',
         success: function(data3) {
             chartData3 = data3;
@@ -97,7 +97,7 @@ $(function() {
 
     $.ajax({
 
-        url: 'http://localhost/BootStrapChart/collegedata/chart_data4.php',
+        url: 'https://educationstats.azurewebsites.net/collegedata/chart_data4.php',
         type: 'GET',
         success: function(data4) {
             chartData4 = data4;
@@ -130,7 +130,7 @@ $(function() {
 
         $.ajax({
 
-            url: 'http://localhost/BootStrapChart/collegedata/chart_data5.php',
+            url: 'https://educationstats.azurewebsites.net/collegedata/chart_data5.php',
             type: 'GET',
             success: function(data5) {
                 chartData5 = data5;
@@ -162,7 +162,7 @@ $(function() {
 
     $.ajax({
 
-        url: 'http://localhost/BootStrapChart/collegedata/chart_data6.php',
+        url: 'https://educationstats.azurewebsites.net/collegedata/chart_data6.php',
         type: 'GET',
         success: function(data6) {
             chartData6 = data6;
@@ -194,7 +194,7 @@ $(function() {
 
     $.ajax({
 
-        url: 'http://localhost/BootStrapChart/collegedata/chart_data7.php',
+        url: 'https://educationstats.azurewebsites.net/collegedata/chart_data7.php',
         type: 'GET',
         success: function(data7) {
             chartData7 = data7;
@@ -226,7 +226,7 @@ $(function() {
 
     $.ajax({
 
-        url: 'http://localhost/BootStrapChart/collegedata/chart_data8.php',
+        url: 'https://educationstats.azurewebsites.net/collegedata/chart_data8.php',
         type: 'GET',
         success: function(data8) {
             chartData8 = data8;
@@ -258,7 +258,7 @@ $(function() {
 
     $.ajax({
 
-        url: 'http://localhost/BootStrapChart/collegedata/chart_data9.php',
+       url: 'https://educationstats.azurewebsites.net/collegedata/chart_data9.php',
         type: 'GET',
         success: function(data9) {
             chartData9 = data9;
