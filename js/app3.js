@@ -135,7 +135,7 @@ $(function() {
             chartData5 = data5;
             var chartProperties = {
                 "caption": "Undergrad Entrants Statistics",
-                "xAxisName": "University",
+                "xAxisName": "Year",
                 "yAxisName": "Entrants",
                 "rotatevalues": "1",
                 "plotspacepercent": "0",
@@ -167,7 +167,7 @@ $(function() {
             chartData6 = data6;
             var chartProperties = {
                 "caption": "Undergrad Entrants Statistics",
-                "xAxisName": "University",
+                "xAxisName": "Year",
                 "yAxisName": "Entrants",
                 "rotatevalues": "1",
                 "plotspacepercent": "0",
@@ -199,7 +199,7 @@ $(function() {
             chartData7 = data7;
             var chartProperties = {
                 "caption": "Undergrad Entrants Statistics",
-                "xAxisName": "University",
+                "xAxisName": "Year",
                 "yAxisName": "Entrants",
                 "rotatevalues": "1",
                 "plotspacepercent": "0",
@@ -231,7 +231,7 @@ $(function() {
             chartData8 = data8;
             var chartProperties = {
                 "caption": "Undergrad Entrants Statistics",
-                "xAxisName": "University",
+                "xAxisName": "Year",
                 "yAxisName": "Entrants",
                 "rotatevalues": "1",
                 "plotspacepercent": "0",
@@ -263,7 +263,7 @@ $(function() {
             chartData9 = data9;
             var chartProperties = {
                 "caption": "Undergrad Entrants Statistics",
-                "xAxisName": "University",
+                "xAxisName": "Year",
                 "yAxisName": "Entrants",
                 "rotatevalues": "1",
                 "plotspacepercent": "0",
@@ -295,7 +295,7 @@ $(function() {
             chartData10 = data10;
             var chartProperties = {
                 "caption": "Undergrad Entrants Statistics",
-                "xAxisName": "University",
+                "xAxisName": "Year",
                 "yAxisName": "Entrants",
                 "rotatevalues": "1",
                 "plotspacepercent": "0",
