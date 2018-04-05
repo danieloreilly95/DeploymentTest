@@ -33,7 +33,7 @@ $(function() {
 
     $.ajax({
 
-        url: 'http://localhost/BootStrapChart/data/chart_data2.php',
+        url: 'https://educationstats.azurewebsites.net/data/chart_data2.php',
         type: 'GET',
         success: function(data2) {
             chartData2 = data2;
@@ -65,7 +65,7 @@ $(function() {
 
     $.ajax({
 
-        url: 'http://localhost/BootStrapChart/data/chart_data3.php',
+        url: 'https://educationstats.azurewebsites.net/data/chart_data3.php',
         type: 'GET',
         success: function(data3) {
             chartData3 = data3;
@@ -94,7 +94,7 @@ $(function() {
 
     $.ajax({
 
-        url: 'http://localhost/BootStrapChart/data/chart_data4.php',
+        url: 'https://educationstats.azurewebsites.net/data/chart_data4.php',
         type: 'GET',
         success: function(data4) {
             chartData4 = data4;
@@ -123,7 +123,7 @@ $(function() {
 
     $.ajax({
 
-        url: 'http://localhost/BootStrapChart/data/chart_data5.php',
+       url: 'https://educationstats.azurewebsites.net/data/chart_data5.php',
         type: 'GET',
         success: function(data5) {
             chartData5 = data5;
@@ -152,7 +152,7 @@ $(function() {
 
     $.ajax({
 
-        url: 'http://localhost/BootStrapChart/data/chart_data6.php',
+        url: 'https://educationstats.azurewebsites.net/data/chart_data6.php',
         type: 'GET',
         success: function(data6) {
             chartData6 = data6;
@@ -181,7 +181,7 @@ $(function() {
 
     $.ajax({
 
-        url: 'http://localhost/BootStrapChart/data/chart_data7.php',
+        url: 'https://educationstats.azurewebsites.net/data/chart_data7.php',
         type: 'GET',
         success: function(data7) {
             chartData7 = data7;
