@@ -135,7 +135,7 @@ $(function() {
             chartData5 = data5;
             var chartProperties = {
                 "caption": "Entrants Statistics",
-                "xAxisName": "Institute",
+                "xAxisName": "Year",
                 "yAxisName": "Entrants",
                 "rotatevalues": "1",
                 "plotspacepercent": "0",
